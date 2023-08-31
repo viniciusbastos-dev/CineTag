@@ -1,7 +1,13 @@
-const Inicio = () => {
-    return (
-       <h1>Olá, mundo estou em uma página nova!</h1>
-    )
-}
+import Cabecalho from "components/Cabecalho";
+import Rodape from "components/Rodape";
 
-export default Inicio
+const Inicio = () => {
+  return (
+    <>
+      <Cabecalho />
+      <Rodape />
+    </>
+  );
+};
+
+export default Inicio;

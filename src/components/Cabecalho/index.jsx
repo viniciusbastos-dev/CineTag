@@ -9,7 +9,7 @@ const Cabecalho = () => {
             <Link to="./">
                 <img src={logo} alt="Logo do CineTag" />
             </Link>
-            <nav>
+            <nav className={styles.navegacao}>
                 <CabecalhoLink url="./">Home</CabecalhoLink>
                 <CabecalhoLink url="./favotiros">Favoritos</CabecalhoLink>
             </nav>
