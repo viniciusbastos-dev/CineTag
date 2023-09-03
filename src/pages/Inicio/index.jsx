@@ -10,7 +10,7 @@ const Inicio = () => {
     <>
       <Banner imagem="home" />
       <Titulo>
-        <h1>Um lugar para guardar seus videos e filmes!</h1>
+        Um lugar para guardar seus videos e filmes!
       </Titulo>
       <section className={styles.container}>
         {videos.map((video) => (

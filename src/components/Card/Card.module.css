@@ -6,6 +6,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.link {
+    color: var(--preto);
+    text-align: left;
+    text-decoration: none;
     
 }
 
