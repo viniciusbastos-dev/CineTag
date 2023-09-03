@@ -11,7 +11,7 @@ const Cabecalho = () => {
             </Link>
             <nav className={styles.navegacao}>
                 <CabecalhoLink url="./">Home</CabecalhoLink>
-                <CabecalhoLink url="./favotiros">Favoritos</CabecalhoLink>
+                <CabecalhoLink url="./favoritos">Favoritos</CabecalhoLink>
             </nav>
         </header>
     )
