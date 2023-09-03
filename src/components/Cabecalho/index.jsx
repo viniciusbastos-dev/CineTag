@@ -3,7 +3,7 @@ import styles from "./Cabecalho.module.css"
 import logo from "./logo.png"
 import CabecalhoLink from "components/CabecalhoLink"
 
-const Cabecalho = () => {
+function Cabecalho () {
     return (
         <header className={styles.cabecalho}>
             <Link to="./">

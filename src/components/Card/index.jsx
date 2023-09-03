@@ -1,8 +1,7 @@
 import styles from "./Card.module.css";
-import iconeFavoritar from "./favoritar.svg"
+import iconeFavoritar from "./favoritar.svg";
 
-
-const Card = ({ id, titulo, capa }) => {
+function Card({ id, titulo, capa }) {
   return (
     <div className={styles.container}>
       <img src={capa} alt={titulo} className={styles.capa} />
@@ -14,6 +13,6 @@ const Card = ({ id, titulo, capa }) => {
       />
     </div>
   );
-};
+}
 
 export default Card;
