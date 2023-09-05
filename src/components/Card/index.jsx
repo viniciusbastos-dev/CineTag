@@ -12,7 +12,7 @@ function Card({ id, titulo, capa }) {
 
   return (
     <div className={styles.container}>
-      <Link className={styles.link} to={`/${id}`}>
+      <Link className={styles.link} to={`/videos/${id}`}>
       <img src={capa} alt={titulo} className={styles.capa} />
       <h2>{titulo}</h2>
       </Link>
